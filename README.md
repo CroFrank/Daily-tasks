@@ -16,7 +16,7 @@ Your To Do list where you can manage your daily tasks, mark it as completed when
 
 ### Try it out
 
-App is live and hosted on Github and link is on top of Readme file. If you want code on your local machine, you can use "git clone" and once you have it locally I suggest to run in with "Live Server" (VS code extension is easiest way).3+
+App is live and hosted on Github and link is on top of Readme file. If you want code on your local machine, you can use "git clone" and once you have it locally I suggest to run in with "Live Server" (VS code extension is easiest way).
 
 ### Localstorage
 
