@@ -1,6 +1,6 @@
 # Daily-tasks
 
-Hosted on github, you can visit [here](https://crofrank.github.io/Daily-tasks/)
+Hosted on github, you can visit [here](https://crofrank.github.io/daily-tasks/)
 
 ### About app
 
