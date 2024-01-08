@@ -1,0 +1,74 @@
+body {
+    background-color: antiquewhite;
+}
+
+.main-card {
+    background-color: rgb(215, 202, 186);
+    overflow: auto;
+}
+
+.list-group-item {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.card-header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+img {
+    max-height: 600px;
+    max-width: fit-content;
+}
+
+.newTodo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 5.5rem;
+}
+
+.newTodo-form {
+    flex: 1;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.newTodo-input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.newTodo-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.newTodo-btn:hover {
+    background-color: #c0392b;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    transform: translateY(-2px);
+}
+
+.newTodo-btn:active {
+    transform: translateY(1px) scale(0.98);
+}
+
+p {
+    padding: 2.5rem 0;
+}

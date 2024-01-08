@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily tasks</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+
+    <div class="container-md d-flex justify-content-center mt-5 mb-5">
+
+        <div class="card d-flex flex-column align-items-center rounded-5 main-card" style="width: 48rem;">
+            <h1 class="display-4 text-center">My daily tasks</h1>
+            <img src="" class="card-img-top" alt="motivation image">
+            <div class="card-body">
+                <p class="card-text text-center fs-5">Writing down your goals can significaly increase your chances of
+                    achieving them.</p>
+                <div class="newTodo-div">
+                    <form class="newTodo-form" action="#">
+                        <input id="newTodo" class="newTodo-input" type="text" placeholder="Add task to list"
+                            maxlength="47">
+                        <button class="newTodo-btn">Add task</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card w-75 mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Your tasks</h5>
+                    <ul class="list-group">
+                        <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                            <button type="button" class="btn-close form-check" aria-label="Close"
+                                onclick="deleteBtn()"></button>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/index.js"></script>
+</body>
+
+</html>
